@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/00_title_card.png" alt="Gurgaon Residential Real Estate Sales EDA" width="100%">
+</p>
+
 # Gurgaon Residential Real Estate Market Analysis
 
 ### 99acres • Python EDA • Residential Sales Market
