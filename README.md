@@ -4,7 +4,7 @@
 
 # Gurgaon Residential Real Estate Market Analysis
 
-### 99acres • Python EDA • Residential Sales Market
+### ▪ 99acres • Python EDA • Residential Sales Market
 
 > **From raw property listings to defensible market intelligence**
 
@@ -21,7 +21,7 @@ opportunities.
 
 ------------------------------------------------------------------------
 
-## Why This Project Matters
+## ▪ Why This Project Matters
 
 Real-estate decisions are often reduced to one number: **listed property
 price**.
@@ -53,9 +53,9 @@ The EDA turns that question into a structured analytical journey from
 
 ------------------------------------------------------------------------
 
-## Data Source
+## ▪ Data Source
 
-### Original Source
+### ▪ Original Source
 
 **Kaggle --- Indian Real Estate - 99acres.com**\
 Published by **arvanshul**
@@ -92,7 +92,7 @@ observations require investigation before they can be trusted.**
 
 ------------------------------------------------------------------------
 
-## Project Overview
+## ▪ Project Overview
 
 The original 99acres source contains **both property sales and rental
 listings**.
@@ -119,7 +119,7 @@ The final analytical sales dataset contains **10,010 properties across
 
 ------------------------------------------------------------------------
 
-## Business Problem
+## ▪ Business Problem
 
 Residential buyers and investors often compare properties using headline
 price alone.
@@ -149,9 +149,9 @@ This project therefore asks:
 
 ------------------------------------------------------------------------
 
-## Analytical Objectives
+## ▪ Analytical Objectives
 
-### 01 --- Market Structure
+### ▪ 01 --- Market Structure
 
 Understand the composition of Gurgaon's residential sales market
 through:
@@ -163,7 +163,7 @@ through:
 -   locality concentration
 -   inventory patterns
 
-### 02 --- Pricing Driver Analysis
+### ▪ 02 --- Pricing Driver Analysis
 
 Identify the measurable property attributes most strongly associated
 with property price and evaluate the role of:
@@ -176,7 +176,7 @@ with property price and evaluate the role of:
 Correlation is used as an **association signal**, not as proof of
 causation.
 
-### 03 --- Locality Intelligence
+### ▪ 03 --- Locality Intelligence
 
 Compare localities using:
 
@@ -188,7 +188,7 @@ Compare localities using:
 Minimum listing thresholds are used where appropriate so that very small
 samples do not dominate comparisons.
 
-### 04 --- Luxury Market Profiling
+### ▪ 04 --- Luxury Market Profiling
 
 Profile the top 10% of properties as a distinct market segment and
 compare them with the remaining 90% across:
@@ -199,14 +199,14 @@ compare them with the remaining 90% across:
 -   bathrooms
 -   bedrooms
 
-### 05 --- Value Opportunity Identification
+### ▪ 05 --- Value Opportunity Identification
 
 Move beyond "cheapest" versus "most expensive" and identify locations
 where **price and space interact more efficiently**.
 
 ------------------------------------------------------------------------
 
-## The Analytical Decision Framework
+## ▪ The Analytical Decision Framework
 
 The most important part of this project is not the Python syntax.
 
@@ -232,7 +232,7 @@ INTERPRET EVIDENCE
 IDENTIFY OPPORTUNITY
 ```
 
-### The key analytical decisions
+### ▪ The key analytical decisions
 
   -----------------------------------------------------------------------
   Decision                What was done           Why it mattered
@@ -275,12 +275,12 @@ IDENTIFY OPPORTUNITY
 
 ------------------------------------------------------------------------
 
-## Data Preparation & Quality Decisions
+## ▪ Data Preparation & Quality Decisions
 
 Cleaning was treated as an **analytical process**, not a mechanical
 preprocessing step.
 
-### Missing Values
+### ▪ Missing Values
 
 Different fields were handled according to their business meaning.
 
@@ -296,7 +296,7 @@ Different fields were handled according to their business meaning.
 
 The notebook validates the resulting sales dataset after treatment.
 
-### Area Anomaly Investigation
+### ▪ Area Anomaly Investigation
 
 Area was treated particularly carefully because it directly influences
 valuation metrics.
@@ -315,7 +315,7 @@ was:
 > **Detect → Investigate → Understand → Define Rule → Filter → Measure
 > Impact**
 
-### Price-per-Square-Foot Validation
+### ▪ Price-per-Square-Foot Validation
 
 PPSF was engineered as:
 
@@ -336,7 +336,7 @@ After the final anomaly treatment:
 
 ------------------------------------------------------------------------
 
-## Analytical Techniques
+## ▪ Analytical Techniques
 
 The project uses Python as the analytical environment:
 
@@ -352,9 +352,9 @@ reasoning**.
 
 ------------------------------------------------------------------------
 
-## Selected Analytical Evidence
+## ▪ Selected Analytical Evidence
 
-### Property Size & Price
+### ▪ Property Size & Price
 
 Area emerged as the strongest measured structural signal among the
 selected property attributes.
@@ -369,7 +369,7 @@ Correlation with price:
 These values indicate association within the analyzed dataset; they
 should not be interpreted as causal effects.
 
-### Locality Analysis
+### ▪ Locality Analysis
 
 Locality comparisons use listing counts and median PPSF, with a minimum
 listing threshold to avoid allowing tiny samples to dominate the
@@ -384,7 +384,7 @@ toward:
 > **"Which localities combine meaningful market presence with strong
 > pricing power?"**
 
-### Locality Efficiency
+### ▪ Locality Efficiency
 
 The analysis also examines the relationship between locality-level
 pricing and property size.
@@ -395,7 +395,7 @@ This creates a more useful distinction between:
 -   expensive because properties are substantially larger
 -   lower-priced with comparatively stronger space-to-price value
 
-### Luxury Market
+### ▪ Luxury Market
 
 The top 10% of properties were profiled separately from the remaining
 90%.
@@ -407,7 +407,7 @@ the broader market.
 
 ------------------------------------------------------------------------
 
-## What the Analysis Revealed
+## ▪ What the Analysis Revealed
 
 The EDA produces several broader conclusions:
 
@@ -430,7 +430,7 @@ understanding and decision framing**.
 
 ------------------------------------------------------------------------
 
-## From Data to Decision
+## ▪ From Data to Decision
 
 The project ultimately changes how the real-estate question is framed.
 
@@ -457,7 +457,7 @@ support**.
 
 ------------------------------------------------------------------------
 
-## Project Deliverables
+## ▪ Project Deliverables
 
 The repository is intended to preserve the standalone Python EDA as a
 complete analytical project.
@@ -489,7 +489,7 @@ repository.
 
 ------------------------------------------------------------------------
 
-## Tools & Skills
+## ▪ Tools & Skills
 
 **Python** --- analytical workflow and exploratory analysis\
 **Pandas** --- data cleaning, transformation, grouping and aggregation\
@@ -508,7 +508,7 @@ decision-oriented conclusions\
 
 ------------------------------------------------------------------------
 
-## Project Perspective
+## ▪ Project Perspective
 
 This project demonstrates an analytical approach that starts with the
 **business question**, not the chart.
@@ -539,7 +539,7 @@ It is that the analysis shows:
 
 ------------------------------------------------------------------------
 
-## Author
+## ▪ Author
 
 **Debanjan Biswas**\
 Data Analyst \| SQL \| Power BI \| Python
@@ -550,7 +550,7 @@ Data Analyst \| SQL \| Power BI \| Python
 ------------------------------------------------------------------------
 
 ::: {align="center"}
-### Raw Listings → Analytical Foundation → Market Intelligence → Decision Support
+### ▪ Raw Listings → Analytical Foundation → Market Intelligence → Decision Support
 
 **Gurgaon Residential Real Estate Market Analysis**
 :::
